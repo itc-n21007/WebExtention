@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.container {
+    margin: 0 auto 0 auto;
+    max-width: 1000px;
+}
+
+section .container {
+    display: flex;
+    flex-flow: column;
+}
+
+section .container {
+    flex-flow: row;
+}
+main {
+    flex: 1 1 auto;
+    order: 2;
+}
+.sidebar1 {
+    flex: 0 0 200px;
+    order: 1;
+}
+.sidebar2 {
+    flex: 0 0 250px;
+    order: 3;
+}
